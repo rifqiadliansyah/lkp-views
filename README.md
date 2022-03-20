@@ -1,6 +1,6 @@
 # lkp-views
 LKP Mobile (Views)
-Project Mobile (Java) implemetings intent,view & view group,styles & themes
+Project Mobile (Java) implements intent,view & view group,styles & themes
 </br>
 ***
 Overview Project
