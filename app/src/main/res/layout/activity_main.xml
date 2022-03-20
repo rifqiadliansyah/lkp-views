@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#fd581e"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/rifqitampan"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Rifqi Adliansyah"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins"
+                android:text="Premium member"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:textStyle="italic"></TextView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_cuplikan"
+                    android:drawableLeft="@drawable/play"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginBottom="-3dp"
+                    android:backgroundTint="#9A9999"
+                    android:text="Tonton Cuplikan"
+                    android:textSize="9dp"
+                    app:cornerRadius="10sp">
+
+                </Button>
+
+                <ImageButton
+                    android:id="@+id/btnimg_bat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@color/black"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bat"></ImageButton>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/defmargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:drawableRight="@drawable/resagerev"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/title"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/defmargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="176 Minutes"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center"
+                    android:background="#fd581e" />
+
+                <TextView
+                    style="@style/defmargin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/desc"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/poppins"
+                    android:justificationMode="inter_word"
+                    android:text="@string/descriptionindonesia"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:fontFamily="@font/poppins"
+                android:justificationMode="inter_word"
+                android:text="@string/descriptionenglish"
+                android:textColor="@color/black"
+                android:textSize="12dp"></TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_gravity="center"
+                android:background="#fd581e" />
+
+            <TableLayout
+                style="@style/defmargin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Genre"></TextView>
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Action"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pengarah"></TextView>
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mat Reeves"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pemain &amp; Kru"></TextView>
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Robert Pattinson"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Zoe Kravitz"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <TextView
+                        style="@style/additional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Colin Farell"></TextView>
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_beli_tiket"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Beli Tiket"
+            app:cornerRadius="10sp">
+
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

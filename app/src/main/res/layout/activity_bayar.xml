@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BayarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fd581e"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:text="Konfirmasi Pembelian Tiket"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah tiket"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textSize="15dp">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/img_btn_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="#fd581e"
+                android:src="@drawable/ic_baseline_add_circle_24"></ImageButton>
+
+            <EditText
+                android:id="@+id/edt_jumlahtiket"
+                style="@style/bayarMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="jumlah tiket"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="#A3A1A1"></EditText>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas Kursi"
+            android:textColor="@color/white"
+            style="@style/bayarMargin"
+            android:textSize="15dp">
+        </TextView>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_biasa"
+            style="@style/bayarMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FAF6F6"
+            android:text="Regular"
+            android:textColor="@color/white" />
+        <RadioButton
+            android:id="@+id/rb_vip"
+            style="@style/bayarMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FAF6F6"
+            android:text="VIP"
+            android:textColor="@color/white" />
+        <RadioButton
+            android:id="@+id/rb_svip"
+            style="@style/bayarMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FAF6F6"
+            android:text="SUPER VIP"
+            android:textColor="@color/white" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:background="#fd581e" />
+
+    <TextView
+        android:id="@+id/edt_totHarga"
+        android:layout_width="357dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:hint="Total harga"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+    <Button
+        android:id="@+id/btn_bayar"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="10sp"
+        android:layout_gravity="center"
+        android:text="Bayar"></Button>
+</LinearLayout>

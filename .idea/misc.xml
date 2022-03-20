@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1555" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/drawable/ic_baseline_access_time_filled_24.xml" value="0.1525" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1555" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/drawable/ic_telp.xml" value="0.1555" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/drawable/play.xml" value="0.1525" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/layout-normal/activity_main.xml" value="0.1956521739130435" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/layout/activity_bayar.xml" value="0.264" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/4.TUGAS SEMESTER 4/Prak-Mob/lkpViews/app/src/main/res/layout/fragment_beli_tiket.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

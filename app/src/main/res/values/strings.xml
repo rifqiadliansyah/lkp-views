@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LkpViews</string>
+    <string name="title">The Batman</string>
+    <string name="desc">Deskripsi</string>
+    <string name="descriptionindonesia">
+        Ketika Riddler, seorang pembunuh berantai<br />
+        yang sadis mulai membunuh tokoh-tokoh<br />
+        politik penting di Gotham, Batman dituntut<br />
+        untuk menyelidiki korupsi tersembunyi di<br />
+        kota itu dan mempertanyakan keterlibatan<br />
+        keluarganya.</string>
+    <string name="descriptionenglish">
+        When the Riddler, a sadistic serial killer,<br />
+        begins murdering key political figures in<br />
+        Gotham, Batman is forced to investigate the<br />
+        city\'s hidden corruption and question his<br />
+        family\'s involvement</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

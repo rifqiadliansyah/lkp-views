@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LkpViews" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#fd581e</item>
+        <item name="colorPrimaryVariant">#fd581e</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+<style name="bayarMargin">
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginTop">5dp</item>
+</style>
+<style name="additional">
+    <item name="android:textColor">#6C6A6A</item>
+    <item name="android:fontFamily">@font/poppins</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:layout_marginRight">150dp</item>
+</style>
+<style name="defmargin">
+    <item name="android:layout_marginLeft">20dp</item>
+</style>
+
+</resources>
